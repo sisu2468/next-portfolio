@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 const cardVariants = {
-    hidden: { y: 50, opacity: 0 },
+    hidden: { y: 51, opacity: 0 },
     visible: { y: 0, opacity: 1, transition: { duration: 0.6, ease: 'easeInOut' } }
 };
 
